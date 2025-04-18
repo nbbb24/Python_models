@@ -1,0 +1,20 @@
+# Core PyTorch with CUDA support
+# Install using: pip install -r requirements.txt
+# For CUDA 11.8 (recommended for most systems)
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+
+# Essential packages for Transformer implementation
+numpy==1.24.3
+matplotlib==3.7.1
+tqdm==4.65.0
+
+# Additional utilities
+scikit-learn==1.2.2  # For data preprocessing and evaluation
+pandas==2.0.2        # For data handling
+tensorboard==2.13.0  # For training visualization
+
+# Development tools
+ipython==8.12.0      # For interactive development
+jupyter==1.0.0       # For notebook support 
